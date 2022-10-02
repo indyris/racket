@@ -1,0 +1,22 @@
+package racket
+
+depends = base, contrib, linear, ffiglet, tailrec, freer, eff
+
+modules = Racket,
+          Racket.Async.Channels,
+          Racket.Basics,
+          Racket.Custodians,
+          Racket.CustodianBoxes,
+          Racket.Env,
+          Racket.Events,
+          Racket.Lists,
+          Racket.Parameters,
+          Racket.Procedures,
+          Racket.Pairs,
+          Racket.Pairs.Prim,
+          Racket.Ports,
+          Racket.Subprocesses,
+          Racket.System,
+          Racket.Time,
+          Racket.Threads,
+          Racket.Util
