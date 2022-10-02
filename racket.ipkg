@@ -1,6 +1,6 @@
 package racket
 
-depends = base, contrib, linear, ffiglet, tailrec, freer, eff
+depends = base, contrib, ffiglet
 
 modules = Racket,
           Racket.Async.Channels,
